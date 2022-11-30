@@ -80,8 +80,8 @@ def show_user_menu():
     print('C. Top rated movies')
     print('D. Least rated movies')
     print('E. Top movies by genre')
-
-    def get_genre_name(genre_number):
+    
+def genre_type(genre_number):
         """_summary_ This function will create the list of choices of the different genres of movies for the user to choose from and from the choice of the user, the code will return the movie within the genre(display movie(s) of selected genre)
 
         Args:
